@@ -1,0 +1,20 @@
+{
+  "name": "running-pace-cli",
+  "version": "1.0.0",
+  "description": "A command line tool for calculating running pace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RianGallagher/running-pace-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RianGallagher/running-pace-cli/issues"
+  },
+  "homepage": "https://github.com/RianGallagher/running-pace-cli#readme"
+}
