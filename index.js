@@ -81,6 +81,8 @@ async function distanceTimeConversion() {
   console.log(
     `${distance}km in ${padNumber(hours)}:${padNumber(minutes)}:${padNumber(
       seconds
-    )} is ${Math.floor(minutesPerKilometer)}:${Math.floor(leftoverSeconds)}/km`
+    )} is ${Math.floor(minutesPerKilometer)}:${padNumber(
+      Math.floor(leftoverSeconds)
+    )}/km`
   );
 }
